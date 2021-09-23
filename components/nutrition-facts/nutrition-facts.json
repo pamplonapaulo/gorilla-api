@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_nutrition_facts_nutrition_facts",
+  "info": {
+    "name": "NutritionFacts",
+    "icon": "exclamation-triangle"
+  },
+  "options": {},
+  "attributes": {
+    "Obs": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "Carbohydrates": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "SaturatedFat": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "Portion": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "Proteins": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "TransFat": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "TotalFat": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "EnergeticValue": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "DietaryFiber": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "Sodium": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    }
+  }
+}
