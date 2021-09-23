@@ -1,4 +1,3 @@
-# Strapi application
+# Gorilla Pack API
 
-A quick description of your strapi application
-# gorilla-api
+# Content Management System for Gorilla Pack E-commerce
